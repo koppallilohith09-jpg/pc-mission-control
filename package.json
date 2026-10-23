@@ -1,0 +1,17 @@
+{
+  "name": "pc-mission-control",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Live CPU, memory, storage and network readings from your computer.",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "config": {
+    "port": 8805
+  }
+}
